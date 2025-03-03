@@ -136,7 +136,7 @@ result = await kernel.RunAsync(func, funcVariables);
 
 ### Select AI Service by Service Id
 
-The following use case is supported. Developers can create a `Kernel`` instance with multiple named AI services. When invoking a semantic function the service id (and optionally request settings to be used) can be specified. The named AI service will be used to execute the prompt.
+The following use case is supported. Developers can create a `Kernel` instance with multiple named AI services. When invoking a semantic function the service id (and optionally request settings to be used) can be specified. The named AI service will be used to execute the prompt.
 
 ```csharp
 var aoai = TestConfiguration.AzureOpenAI;
